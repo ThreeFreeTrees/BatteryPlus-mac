@@ -1,0 +1,76 @@
+imagebytes.o:
+(__TEXT,__text) section
+_IOPMSetEnergyModePreference:
+       0:	hint	#27
+       4:	sub	sp, sp, #0x70
+       8:	stp	x24, x23, [sp, #0x30]
+       c:	stp	x22, x21, [sp, #0x40]
+      10:	stp	x20, x19, [sp, #0x50]
+      14:	stp	x29, x30, [sp, #0x60]
+      18:	add	x29, sp, #0x60
+      1c:	mov	x20, x1
+      20:	mov	x21, x0
+      24:	adrp	x8, 373899 ; 0x5b48b000
+      28:	ldr	x8, [x8, #0x5c0]
+      2c:	ldr	x8, [x8]
+      30:	str	x8, [sp, #0x28]
+      34:	mov	w19, #0x2bc
+      38:	movk	w19, #0xe000, lsl #16
+      3c:	adrp	x1, 407144 ; 0x63668000
+      40:	add	x1, x1, #0xf80
+      44:	mov	x0, x20
+      48:	bl	0x334e818
+      4c:	cbnz	w0, 0x64
+      50:	adrp	x1, 407144 ; 0x63668000
+      54:	add	x1, x1, #0xfa0
+      58:	mov	x0, x20
+      5c:	bl	0x334e818
+      60:	cbz	w0, 0x1d4
+      64:	adrp	x1, 407144 ; 0x63668000
+      68:	add	x1, x1, #0xfe0
+      6c:	mov	x0, x21
+      70:	bl	0x334e818
+      74:	cbnz	w0, 0xa0
+      78:	adrp	x1, 407145 ; 0x63669000
+      7c:	add	x1, x1, #0x0
+      80:	mov	x0, x21
+      84:	bl	0x334e818
+      88:	cbnz	w0, 0xa0
+      8c:	adrp	x1, 407145 ; 0x63669000
+      90:	add	x1, x1, #0x20
+      94:	mov	x0, x21
+      98:	bl	0x334e818
+      9c:	cbz	w0, 0x1d4
+      a0:	adrp	x1, 407145 ; 0x63669000
+      a4:	add	x1, x1, #0x0
+      a8:	mov	x0, x21
+      ac:	bl	0x334e818
+      b0:	cbz	w0, 0xcc
+      b4:	adrp	x0, 407145 ; 0x63669000
+      b8:	add	x0, x0, #0x0
+      bc:	mov	x1, x20
+_IOPMFeatureIsAvailable:
+      c0:	hint	#27
+      c4:	sub	sp, sp, #0x40
+      c8:	stp	x22, x21, [sp, #0x10]
+      cc:	stp	x20, x19, [sp, #0x20]
+      d0:	stp	x29, x30, [sp, #0x30]
+      d4:	add	x29, sp, #0x30
+      d8:	mov	x20, x1
+      dc:	mov	x21, x0
+      e0:	adrp	x19, 391036 ; 0x5f77c000
+      e4:	ldr	w0, [x19, #0xb28]
+      e8:	cbnz	w0, 0x10c
+      ec:	adrp	x8, 177 ; 0xb1000
+      f0:	add	x8, x8, #0x270
+      f4:	ldr	w0, [x8]
+      f8:	adrp	x1, 162 ; 0xa2000
+      fc:	add	x1, x1, #0xeee
+     100:	bl	0xfffffffffffe947c
+     104:	str	w0, [x19, #0xb28]
+     108:	cbz	w0, 0x168
+     10c:	adrp	x8, 373802 ; 0x5b42a000
+     110:	ldr	x8, [x8, #0xbf0]
+     114:	ldr	x2, [x8]
+     118:	adrp	x1, 407160 ; 0x63678000
+     11c:	add	x1, x1, #0x40

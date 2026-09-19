@@ -1,0 +1,79 @@
+.text
+.globl _IOPMSetEnergyModePreference
+.p2align 2
+_IOPMSetEnergyModePreference:
+  .long 0xd503237f
+  .long 0xd101c3ff
+  .long 0xa9035ff8
+  .long 0xa90457f6
+  .long 0xa9054ff4
+  .long 0xa9067bfd
+  .long 0x910183fd
+  .long 0xaa0103f4
+  .long 0xaa0003f5
+  .long 0xf02da448
+  .long 0xf942e108
+  .long 0xf9400108
+  .long 0xf90017e8
+  .long 0x52805793
+  .long 0x72bc0013
+  .long 0x9031b341
+  .long 0x913e0021
+  .long 0xaa1403e0
+  .long 0x94cd39f4
+  .long 0x350000c0
+  .long 0x9031b341
+  .long 0x913e8021
+  .long 0xaa1403e0
+  .long 0x94cd39ef
+  .long 0x34000ba0
+  .long 0x9031b341
+  .long 0x913f8021
+  .long 0xaa1503e0
+  .long 0x94cd39ea
+  .long 0x35000160
+  .long 0xb031b341
+  .long 0x91000021
+  .long 0xaa1503e0
+  .long 0x94cd39e5
+  .long 0x350000c0
+  .long 0xb031b341
+  .long 0x91008021
+  .long 0xaa1503e0
+  .long 0x94cd39e0
+  .long 0x340009c0
+  .long 0xb031b341
+  .long 0x91000021
+  .long 0xaa1503e0
+  .long 0x94cd39db
+  .long 0x340000e0
+  .long 0xb031b340
+  .long 0x91000000
+  .long 0xaa1403e1
+.globl _IOPMFeatureIsAvailable
+.p2align 2
+_IOPMFeatureIsAvailable:
+  .long 0xd503237f
+  .long 0xd10103ff
+  .long 0xa90157f6
+  .long 0xa9024ff4
+  .long 0xa9037bfd
+  .long 0x9100c3fd
+  .long 0xaa0103f4
+  .long 0xaa0003f5
+  .long 0x902fbbf3
+  .long 0xb94b2a60
+  .long 0x35000120
+  .long 0xb0000588
+  .long 0x9109c108
+  .long 0xb9400100
+  .long 0xd0000501
+  .long 0x913bb821
+  .long 0x97ffa4df
+  .long 0xb90b2a60
+  .long 0x34000300
+  .long 0xd02da148
+  .long 0xf945f908
+  .long 0xf9400102
+  .long 0x9031b3c1
+  .long 0x91010021

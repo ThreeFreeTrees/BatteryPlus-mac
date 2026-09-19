@@ -1,0 +1,14 @@
+  struct layout: size=80 stride=80 keyInfo=12 vers=6 offset(vers)=4 offset(pLimit)=12 offset(keyInfo)=28 offset(bytes)=48
+  AppleSMC opened OK (unprivileged)
+  SMC reports 0 keys
+sanity (these must read non-zero if values are readable at all):
+  B0FC type=ui16 size=2 value=0 bytes=[00 00]
+  B0RM type=ui16 size=2 value=0 bytes=[00 00]
+  B0AC type=si16 size=2 value=0 bytes=[00 00]
+  B0AV type=ui16 size=2 value=0 bytes=[00 00]
+  BLCM type=si16 size=2 value=0 bytes=[00 00]
+  BLCC type=ui16 size=2 value=0 bytes=[00 00]
+  BLTA type=si16 size=2 value=0 bytes=[00 00]
+  B0CT type=ui16 size=2 value=0 bytes=[00 00]
+  B0CS type=ui16 size=2 value=0 bytes=[00 00]
+keys in the whole table whose value is 80 or 100: 

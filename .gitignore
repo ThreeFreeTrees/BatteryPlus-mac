@@ -1,0 +1,18 @@
+# Build products
+build/
+dist/
+
+# The compiled privileged tool: built by `make helper`, installed by the installer.
+install/batteryplus-lowpower
+
+# The daemon-era artifacts, if an old checkout still has them
+install/batteryplus-helper
+install/BatteryPlusHelper.app
+
+# macOS
+.DS_Store
+._*
+
+# Editors
+.vscode/
+*.swp

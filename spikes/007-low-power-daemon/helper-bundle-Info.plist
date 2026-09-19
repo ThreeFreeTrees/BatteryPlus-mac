@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- The helper's bundle. It exists so macOS has something to take an icon from: a bare Mach-O
+	     executable gets the generic "exec" glyph in Login Items → Background App Activity, while an
+	     executable inside a bundle gets that bundle's icon. CFBundleName is deliberately the same
+	     string as the executable, so the row still reads "batteryplus-helper". -->
+	<key>CFBundleIdentifier</key>
+	<string>com.mambo.batteryplus.helper</string>
+	<key>CFBundleName</key>
+	<string>batteryplus-helper</string>
+	<key>CFBundleDisplayName</key>
+	<string>batteryplus-helper</string>
+	<key>CFBundleExecutable</key>
+	<string>batteryplus-helper</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSBackgroundOnly</key>
+	<true/>
+	<key>LSMinimumSystemVersion</key>
+	<string>13.0</string>
+</dict>
+</plist>
