@@ -138,6 +138,12 @@ mode nor the main queue — which breaks both animations and data updates inside
   `/Applications/BatteryPlus.app`.
 * Developed and measured on Apple Silicon; the build targets the host architecture, but Intel is untested.
 
+## Support
+
+BatteryPlus is free and stays free (MIT). If it saved you from the yellow battery icon and you'd like
+to say thanks, you can [buy me a coffee on Ko-fi](https://ko-fi.com/kurklazaris) — entirely optional, and
+much appreciated. Bug reports and pull requests are just as welcome.
+
 ## License
 
 MIT — see `LICENSE`. Not affiliated with Apple, and no Apple assets are redistributed: the artwork is drawn
